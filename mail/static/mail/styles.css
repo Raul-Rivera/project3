@@ -1,3 +1,53 @@
 textarea {
     min-height: 400px;
 }
+
+body {
+    background-color: #3da7f2;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.mailbox-new {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid white;
+    margin-bottom: 5px;
+    border-radius: 30px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.read {
+    background-color: gray;
+}
+
+
+.mailbox-date {
+    color: #071475;
+    font-size: 20px;
+}
+
+#email-body {
+    white-space: pre-wrap;
+    font-size: 25px;
+    color: #071475;
+    font-weight: bold;
+}
+
+.mailbox-send-sub {
+    color: #071475;
+    font-size: 20px;
+}
+
+#email-info {
+    font-size: 25px;
+    background-color: gray;
+    color: #071475;
+}
